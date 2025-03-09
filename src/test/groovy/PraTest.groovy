@@ -10,6 +10,11 @@ class PraTest extends Specification {
 
     def "Test Add2 "() {
         expect:
-        target.add2(1,1) == 2
+        target.add2(a,b) == expected
+
+        where:
+        a | b || expected
+        1 | 1 || 2
+        2 | 1 || 2
     }
 }

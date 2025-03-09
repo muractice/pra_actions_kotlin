@@ -8,8 +8,8 @@ class PraTest extends Specification {
         target = new Pra()
     }
 
-    def "Test Add "() {
+    def "Test Add2 "() {
         expect:
-        target.add(1,1) == 2
+        target.add2(1,1) == 2
     }
 }

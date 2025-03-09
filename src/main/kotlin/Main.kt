@@ -5,7 +5,7 @@ fun main() {
 }
 
 class Pra(){
-    fun add(a:Int,b:Int): Int{
+    fun add2(a:Int,b:Int): Int{
         return a+b;
     }
 }

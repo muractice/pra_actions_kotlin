@@ -15,6 +15,6 @@ class PraTest extends Specification {
         where:
         a | b || expected
         1 | 1 || 2
-        2 | 1 || 2
+        2 | 1 || 3
     }
 }
